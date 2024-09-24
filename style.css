@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display",sans-serif;
+}
+
+body,html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 241, 228 ,0.3);
+}
+
+.container{
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(251, 202, 239 ,0.7);
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.3);
+}
+
+.inputDiv{
+    margin: 10px;
+    display: flex;
+}
+
+.inputDiv input{
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+.inputDiv button{
+    height: 40px;
+    width: 10%;
+    font-size: 15px;
+    background-color: rgb(230, 55, 191,0.5);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.inputDiv button:hover{
+    background-color: rgb(230, 55, 191,0.8);
+}
+
+.meaningDisplay{
+    display: none;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 30px;
+
+ 
+}
+
+.meaningDisplay #wordDisplay{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#partOfSpeech{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+    padding: 10px;
+}
+
+#meaning{
+    margin-top: 30px;
+}
+
+
+#synonyms{
+    margin-top: 20px;
+}
